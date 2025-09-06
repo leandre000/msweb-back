@@ -1,7 +1,6 @@
 import { Request, Response } from "express";
 import bcrypt from "bcryptjs";
-import { generateToken } from "../../utils/jwtUtils"; // ✅ import sahi tarah
-import User from "../../model/userSchema";
+import { generateToken } from "../../utils/jwtUtils"; // ✅ import sahi tarah 
 
 const Login = async (req: Request, res: Response) => {
   try {
